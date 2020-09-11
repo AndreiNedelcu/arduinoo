@@ -38,7 +38,7 @@ The idea behind it’s very simple: the sensor emits an ultrasound at 40 000 Hz 
 
 ## Equipment needed 🧙‍♀️:
 
-In this project you won’t be needing special or difficult things to find 😎. They are all in the Arduino kit and should be easy to find online or in your nearby electronics/hobby shop or even your high school 🏫 has them!
+In this project you won’t be needing nothing fancy😎. They are all in the Arduino kit and should be easy to find online or in your nearby electronics/hobby shop or even your high school 🏫 has them!
 
 -   **Arduino UNO.**
     **![](https://lh3.googleusercontent.com/WZXEqy0C0XOkFpfeGdDAn6_qwguOV-mhSeKc2VHn8agF0oBL8C35QO7Km9DiGnhSmOSQm5dN5Gs6ac5ZuBjfdPaVnFIZUE6N57Y45YrAHh3rP8ZnqpHO9fon79zpp25IXEA-rYP5)**
@@ -116,7 +116,7 @@ In this project you won’t be needing special or difficult things to find 😎.
 Here's the code. I added comments throughout the codes so that is easier to follow! Take a look below or download it [here](https://github.com/hackclub/hackclub/blob/main/workshops/line_following_robot/blahbalh.com).
 
 
-Starting by defining the **pins** that we are using for the **LEDs** and the **proximity sensor**.
+Start by defining the **pins** that we are using for the **LEDs** and the **proximity sensor**.
 Next, we establish some parameters for the **LED alerts**. You can edit the parameters to your liking, as well as the pins defined in case you have used others.
 
     #define GREENLED 2
@@ -156,7 +156,7 @@ Below, we establish the **input / output** of each component, in the case of the
 
 
 
-In the following code we define the functions that we are going to use. First we define the **function to turn off all the LEDs** and then the function of the `alerts`. This is a very simple and easy to understand code.
+In the following code we define the functions that we are going to use. First we define the **function to turn off all the LEDs** and then the function of the `alerts`. This is a very simple and easy code.
 
 
 
@@ -195,7 +195,7 @@ In the following code we define the functions that we are going to use. First we
   
 In the next part of the `code` we define the function to calculate the distance that we want to measure with the **proximity sensor**.
 Within the code itself there are comments explaining each part more thoroughly.
-Later, we define the function that will allow the proximity sensor to measure a distance, first we ask it to be off, then we turn it on (for which it sends an **ultrasonic pulse**), and finally we turn it off.
+We then define the function that will allow the proximity sensor to measure the distance, first we ask it to be off, then we turn it on (for which it sends an **ultrasonic pulse**), and finally we turn it off.
 
 
     // Method that calculates the distance an object is located.
